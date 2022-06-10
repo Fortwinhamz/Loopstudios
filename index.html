@@ -2,58 +2,149 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Frontend Mentor | Loopstudios landing page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <script src="https://kit.fontawesome.com/9acea6f878.js" crossorigin="anonymous"></script>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-  About
-  Careers
-  Events
-  Products
-  Support
+  <header class="header">
+    <nav class="navbar">
+      <a href="" class="nav-logo">loopstudios</a>
 
-  Immersive experiences that deliver
+      <ul class="nav-menu">
 
-  The leader in interactive VR
+        <li class="nav-item">
+          <a href="#" class="nav-link">About</a>
+        </li>
 
-  Founded in 2011, Loopstudios has been producing world-class virtual reality 
-  projects for some of the best companies around the globe. Our award-winning 
-  creations have transformed businesses through digital experiences that bind 
-  to their brand.
+        
+        <li class="nav-item">
+          <a href="#" class="nav-link">Careers</a>
+        </li>
 
-  Our creations
+        <li class="nav-item">
+          <a href="#" class="nav-link">Events</a>
+        </li>
 
-  See all
+        <li class="nav-item">
+          <a href="#" class="nav-link">Products</a>
+        </li>
 
-  Deep earth
-  Night arcade
-  Soccer team VR
-  The grid
-  From up above VR
-  Pocket borealis
-  The curiosity
-  Make it fisheye
+        <li class="nav-item">
+          <a href="#" class="nav-link">Support</a>
+        </li>
 
-  About
-  Careers
-  Events
-  Products
-  Support
+      </ul>
 
-  © 2021 Loopstudios. All rights reserved.
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+      <div class="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+
+    </nav>
+
+    <div class="loop">
+      Immersive experiences that deliver
+    </div>
+  </header>
+
+ <div class="vr-section">
+    <div class="vr-img">
+      <img src="./images/mobile/image-interactive.jpg" alt="">
+    </div>
+
+
+    <div class="vr-text">
+
+      <h2 class="vr-heading">The leader in interactive VR</h2>
+      <p>
+        Founded in 2011, Loopstudios has been producing world-class virtual reality 
+        projects for some of the best companies around the globe. Our award-winning 
+        creations have transformed businesses through digital experiences that bind 
+        to their brand.
+      </p>
+    </div>
+  </div> 
+
+
+  <div class="our-creations">
+    <h1>Our Creations</h1>
+
+
+    <div class="rows">
+      <div class="row">
+       <p>Deep Earth</p> 
+      </div>
+
+
+      <div class="row">
+        <p>nIGHT Arcade</p>
+      </div>
+
+
+      <div class="row">
+        <p>Soccer Team VR</p>
+      </div>
+
+
+      <div class="row">
+        <p>The Grid</p>
+      </div>
+
+
+      <div class="row">
+        <p>From Up Above VR</p>
+      </div>
+
+
+      <div class="row">
+       <p>Pocket Borealis</p>
+      </div>
+
+      <div class="row">
+       <p> The Curiosity</p>
+      </div>
+
+      <div class="row">
+       <p>Make it FishEye</p>
+      </div>
+
+      <button class="btn"> See All</button>
+    </div>
   </div>
+
+
+
+  <footer>
+   <h2 class="footer-name">loopstudios</h2>
+    <nav class="footer-link">
+      <a href="#">About</a>
+      <a href="#">Careers</a>
+      <a href="#">Events</a>
+      <a href="#">Products</a>
+      <a href="#">Support</a>
+    </nav>
+
+    <div class="social-icons">
+      <i class="fa-brands fa-facebook"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-pinterest"></i>
+      <i class="fa-brands fa-instagram"></i>
+    </div>
+    <div class="line2"></div>
+    <p class="copyright">
+      Copyright @ 2022 Agency Creative. All Right Reserved
+    </p>
+    </div>
+
+  </footer>
 </body>
+
+
+<script src="./script.js"></script>
 </html>
